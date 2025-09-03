@@ -11,7 +11,8 @@ import java.sql.Statement;
 import java.util.Properties;
 
 public class DB {
-
+	
+	//O package db possui classes que vão auxiliar para abrir e fechar conexões com o banco de dados.
 	private static Connection conn = null;
 	
 	public static Connection getConnection() {
